@@ -1,0 +1,45 @@
+#myCanvas{
+    cursor: pointer;
+}
+.block-expenses-statistics{
+    display: flex;
+    width: 100%;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+}
+canvas, list-expenses{
+    margin: 0 20px;
+}
+.list-div{
+    cursor: pointer;
+    margin: 10px;
+    font-family: arial;
+    transition: all 0.2s;
+}
+.selected .list-div{
+    filter: blur(1.5px);
+}
+.selected .active{
+    filter: blur(0px);
+    transition: all 0.2s;
+}
+.expenses{
+    width: 280px;
+}
+.expenses div{
+    margin: 10px 0;
+}
+.mark-color{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+    border-radius: 3px;
+}
+.summ-text{
+    margin: 10px;
+    font-size: 18px;
+}
